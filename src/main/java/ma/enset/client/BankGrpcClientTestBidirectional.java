@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class BankGrpcClient5 {
+public class BankGrpcClientTestBidirectional {
     public static void main(String[] args) throws IOException {
         ManagedChannel managedChannel = ManagedChannelBuilder.forAddress("localhost", 1997)
                 .usePlaintext()

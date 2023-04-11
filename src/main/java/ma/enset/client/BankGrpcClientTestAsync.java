@@ -8,7 +8,7 @@ import ma.enset.stubs.BankServiceGrpc;
 
 import java.io.IOException;
 
-public class BankGrpcClientAsync {
+public class BankGrpcClientTestAsync {
     public static void main(String[] args) throws IOException {
         ManagedChannel managedChannel = ManagedChannelBuilder.forAddress("localhost", 1997)
                 .usePlaintext()

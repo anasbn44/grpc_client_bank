@@ -5,7 +5,7 @@ import io.grpc.ManagedChannelBuilder;
 import ma.enset.stubs.Bank;
 import ma.enset.stubs.BankServiceGrpc;
 
-public class BankGrpcClient {
+public class BankGrpcClientTestUnary {
     public static void main(String[] args) {
         ManagedChannel managedChannel = ManagedChannelBuilder.forAddress("localhost", 1997)
                 .usePlaintext()
